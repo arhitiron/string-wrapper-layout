@@ -24,7 +24,7 @@ public class CharListLayout {
         for (int i = 0; i < SIZE; i++) {
             char ch = (char) i;
             list.add(ch);
-                set.add(ch);
+            set.add(ch);
         }
 
         log.info(GraphLayout.parseInstance(list).toFootprint());
